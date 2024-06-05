@@ -5,7 +5,7 @@
     system = "x86_64-linux";
     pkgs = import nixpkgs { inherit system; };
     pkgName = "gameOfLife";
-    haskPkgs = pkgs.haskell.packages.ghc965;
+    haskPkgs = pkgs.haskell.packages.ghc964;
 
   in {
     packages.${system}.${pkgName} = haskPkgs.developPackage { root  = ./.; };
