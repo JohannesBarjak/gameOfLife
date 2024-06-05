@@ -59,7 +59,7 @@ library
     import:           warnings
 
     -- Modules exported by the library.
-    exposed-modules:  MyLib
+    exposed-modules: GameOfLife
 
     -- Modules included in this library but not exported.
     -- other-modules:
@@ -92,6 +92,7 @@ executable gameOfLife
     -- Other library packages from which modules are imported.
     build-depends:
         base ^>=4.18.2.1,
+        Yampa^>=0.14.8,
         gameOfLife
 
     -- Directories containing source files.
