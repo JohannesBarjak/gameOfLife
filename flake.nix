@@ -19,6 +19,9 @@
             p.ghcid
             p.cabal-install
           ]))
+
+          pkgs.pkg-config
+          pkgs.SDL2
         ];
       };
     };
