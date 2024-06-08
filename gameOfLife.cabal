@@ -90,11 +90,10 @@ executable gameOfLife
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends
-        : base ^>=4.18.2.0
-        , Yampa^>=0.14.8
-        , sdl2 ^>=2.5.5.0
-        , gameOfLife
+    build-depends: base ^>=4.18.2.0
+                 , Yampa^>=0.14.8
+                 , sdl2 ^>=2.5.5.0
+                 , gameOfLife
 
     extra-libraries: SDL2
 
